@@ -5,4 +5,3 @@ MasterBranch
 
 Pull request trigger setback
 
-Thank you.

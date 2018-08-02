@@ -1,0 +1,6 @@
+#!/bin/bash
+sudo service nginx restart
+isExistApp = `pgrep httpd`
+if [[ -n  $isExistApp ]]; then
+    service httpd stop        
+fi
