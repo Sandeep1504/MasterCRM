@@ -31,8 +31,6 @@ pipeline {
             steps {
                 withMaven(maven : 'MAVEN_HOME') {
                     sh 'mvn test -P single'
-                    junit testDataPublishers: [[$class: 'AutomateTestDataPublisher']], testResults: 'src/test/resources/TEST-*.xml'
-                    
                 }
             }
         }
