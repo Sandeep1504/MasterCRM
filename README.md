@@ -3,6 +3,5 @@ MasterBranch
 
 #ReadmeFile
 
-Pull request trigger setback
-
+Run with AWS CodePipeline
 
