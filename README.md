@@ -3,5 +3,5 @@ MasterBranch
 
 #ReadmeFile
 
-Run with AWS CodePipeline
+Test on Jenkins through AWS codepipeline
 
